@@ -4,6 +4,7 @@ import { Menu, X, Download, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import cvFile from "@/assets/Soumya_Pal_CV.pdf";
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -42,8 +43,8 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a 
-          href="#home" 
+        <a
+          href="#home"
           onClick={(e) => scrollToSection(e, "#home")}
           className="text-xl font-serif font-bold tracking-tight text-primary z-50 relative"
         >
@@ -62,9 +63,11 @@ export function Navbar() {
               {item.name}
             </a>
           ))}
-          <Button variant="outline" size="sm" className="gap-2 font-sans">
-            <Download className="h-4 w-4" />
-            CV
+          <Button variant="outline" size="sm" className="gap-2 font-sans" asChild>
+            <a href={cvFile} download="Soumya_Pal_CV.pdf">
+              <Download className="h-4 w-4" />
+              CV
+            </a>
           </Button>
         </div>
 
@@ -96,9 +99,11 @@ export function Navbar() {
                   {item.name}
                 </a>
               ))}
-              <Button variant="outline" size="lg" className="mt-4 gap-2">
-                <Download className="h-4 w-4" />
-                Download CV
+              <Button variant="outline" size="lg" className="mt-4 gap-2" asChild>
+                <a href={cvFile} download="Soumya_Pal_CV.pdf">
+                  <Download className="h-4 w-4" />
+                  Download CV
+                </a>
               </Button>
             </motion.div>
           )}
