@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Mail, Linkedin, Globe, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ifmrLogo from "@/assets/ifmr_logo.png";
 
 export function Contact() {
   return (
@@ -15,9 +16,9 @@ export function Contact() {
             <p className="text-secondary-foreground/70 text-lg mb-8 max-w-md">
               Open to academic collaborations, research discussions, and speaking opportunities.
             </p>
-            
-            <a 
-              href="mailto:soumya.pal@krea.edu.in" 
+
+            <a
+              href="mailto:soumya.pal@krea.edu.in"
               className="inline-flex items-center gap-3 text-2xl font-serif font-bold hover:text-accent transition-colors border-b-2 border-transparent hover:border-accent pb-1 mb-10"
             >
               <Mail className="w-6 h-6" />
@@ -44,6 +45,9 @@ export function Contact() {
               IFMR Graduate School of Business<br />
               Krea University
             </p>
+            <div className="flex justify-end mb-6">
+              <img src={ifmrLogo} alt="IFMR GSB Logo" className="h-16 object-contain opacity-80" />
+            </div>
             <p className="text-sm opacity-50">
               © {new Date().getFullYear()} Dr. Soumya Pal. All rights reserved.
             </p>

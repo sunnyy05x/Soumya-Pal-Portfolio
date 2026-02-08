@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Award, BookOpen } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile_new.png";
 import { Card, CardContent } from "@/components/ui/card";
 
 export function About() {
@@ -8,7 +8,7 @@ export function About() {
     <section id="about" className="py-24 md:py-32 bg-background relative overflow-hidden">
       <div className="container px-6 mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          
+
           {/* Image Side - 3D Tilt Effect could be added here, simplified for now */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -19,9 +19,9 @@ export function About() {
           >
             <div className="absolute inset-0 bg-secondary/10 rounded-2xl transform translate-x-4 translate-y-4 -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500" />
             <div className="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-2xl border border-border/50">
-              <img 
-                src={profileImg} 
-                alt="Dr. Soumya Pal" 
+              <img
+                src={profileImg}
+                alt="Dr. Soumya Pal"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
@@ -39,11 +39,11 @@ export function About() {
           >
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8">About Me</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              I am an environmental economist with a PhD in Public Policy from the <strong className="text-foreground">Indian Institute of Management Bangalore (IIMB)</strong>. 
+              I am an environmental economist with a PhD in Public Policy from the <strong className="text-foreground">Indian Institute of Management Bangalore (IIMB)</strong>.
               My work intersects health economics, environmental justice, and mathematical demography, seeking to understand the profound impacts of climate change on human populations.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              Currently, I teach Macroeconomics and Model Thinking at <strong className="text-foreground">IFMR Graduate School of Business</strong>. 
+              Currently, I teach Macroeconomics and Model Thinking at <strong className="text-foreground">IFMR Graduate School of Business</strong>.
               I strive to bridge the gap between theoretical models and real-world policy implications.
             </p>
 
