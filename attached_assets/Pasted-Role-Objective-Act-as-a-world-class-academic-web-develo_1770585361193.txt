@@ -1,0 +1,63 @@
+Role & Objective: Act as a world-class academic web developer. Build a premium, minimalist, and high-impact portfolio website for Dr. Soumya Pal, an Assistant Professor at IFMR Graduate School of Business, Krea University and an Economist specializing in Climate Change and Public Policy.
+
+Design Aesthetic:
+
+Vibe: "Ivy League" Academic meets Modern Policy Think-Tank. Clean, authoritative, text-focused but visually breathable.
+
+Color Palette: Deep Navy Blue (trust/academic), Slate Grey (modern), and White (cleanliness). Use a Serif font (like Merriweather or Playfair Display) for headings to signal academic rigor, and a clean Sans-Serif (like Inter or Roboto) for body text.
+
+Structure: Single-page scrolling site with a sticky navigation bar (Home, Research, Teaching, CV, Contact).
+
+Content & Data to Populate:
+
+1. Hero Section:
+
+Headline: "Dr. Soumya Pal"
+
+Sub-headline: "Assistant Professor of Economics, IFMR GSB - Krea University | Public Policy Scholar"
+
+Tagline: "Bridging the gap between Mathematical Demography and the Economics of Climate Change."
+
+Call to Action (CTA): "View Research" (Button)
+
+2. About Section:
+
+"I am an environmental economist with a PhD in Public Policy from the Indian Institute of Management Bangalore (IIMB). My work intersects health economics, environmental justice, and mathematical demography. Currently, I teach Macroeconomics and Model Thinking at IFMR Graduate School of Business."
+
+Key Education Highlights: PhD (IIM Bangalore), M.Phil & M.Sc. in Population Studies (IIPS, Mumbai), B.Sc. Statistics (Patna University).
+
+3. Research & Publications (Highlight these specific papers):
+
+Featured Paper 1: "Inequality in length of life in India: an empirical analysis" (Journal of Population Research, 2022).
+
+Featured Paper 2: "Chronic respiratory disease mortality and its associated factors in selected Asian countries" (BMC Public Health, 2021).
+
+Working Paper: "Smog at the Downstream: Abatement Cost of Delay in Paddy Cultivation."
+
+Research Interests: Economics of Climate Change, Environmental Regulation, Air Pollution Modeling, Gender & Health Economics.
+
+4. Teaching Section:
+
+List courses: Macroeconomics (MBA), Microeconomics (Undergraduate), Economics of Market, Model Thinking.
+
+5. Awards & Recognition:
+
+Tara Kanitkar IIPS Gold Medal (2018)
+
+UGC Junior Research Fellowship (2017)
+
+Patna University Gold Medal (2015)
+
+6. Contact Section:
+
+Email: soumya.pal@krea.edu.in
+
+Socials: Link to Google Scholar, LinkedIn, and ResearchGate.
+
+Technical Requirements:
+
+Ensure the site is mobile-responsive.
+
+Add a "Download CV" button in the navigation bar.
+
+Optimize SEO for keywords: "Soumya Pal Economist", "Krea University Professor", "Climate Change Researcher India".
