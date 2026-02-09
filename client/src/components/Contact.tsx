@@ -26,9 +26,11 @@ export function Contact() {
             </a>
 
             <div className="flex gap-4">
-              <Button variant="outline" size="icon" className="rounded-full bg-white/10 border-white/20 hover:bg-white/20 text-white">
-                <Linkedin className="w-5 h-5" />
-              </Button>
+              <a href="https://www.linkedin.com/in/soumya-pal-748b692ab/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon" className="rounded-full bg-white/10 border-white/20 hover:bg-white/20 text-white">
+                  <Linkedin className="w-5 h-5" />
+                </Button>
+              </a>
               <Button variant="outline" size="icon" className="rounded-full bg-white/10 border-white/20 hover:bg-white/20 text-white">
                 <BookOpen className="w-5 h-5" />
               </Button>
